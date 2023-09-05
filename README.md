@@ -7,12 +7,12 @@ Dependancies:
  - arduino libraries: Arduino's SPI and Servo (included with Arduino),  RobotCore (included in telebotv2), and IRremote (https://github.com/shirriff/Arduino-IRremote)
  - - IRremote is optional, you'll have to comment out the code though.  not having an IR revceiver connected will not affect operation even with the code enabled
  
-Hadrware:
- - power wheelchair base
- - any arduino
- - motor controller (RobotCore is configurable for servo based or H-bridge)
- - a PC that can run nodejs and Chrome or Firefox.
- - optional: IR remote
+Hardware:
+ - Power wheelchair base
+ - Any arduino
+ - Motor controller (RobotCore is configurable for servo based or H-bridge)
+ - A PC that can run nodejs and Chrome or Firefox.
+ - Optional: IR remote
 
 Installation:  internet is required during installation, but not to run the code
 - install nodejs and npm (node package manager) using whatever method is recomended for your OS.
